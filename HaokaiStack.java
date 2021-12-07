@@ -9,8 +9,8 @@ public class HaokaiStack {
         stackAsArray.add(decrement);
     }
 
-    public void ShowStack(ArrayList<Integer> arrayshow) {
-        for (int iLoop : arrayshow) {
+    public void ShowStack() {
+        for (int iLoop : stackAsArray) {
             System.out.println(iLoop);
         }
     }

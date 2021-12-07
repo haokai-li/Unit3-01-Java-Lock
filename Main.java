@@ -2,15 +2,19 @@ class Main {
     public static void main(String[] args) {
         HaokaiStack aStack = new HaokaiStack();
 
-    	aStack.push(1);
-    	System.out.println("Push: 1");
-    	aStack.push(2);
-    	System.out.println("Push: 2");
-        aStack.push(3);
-    	System.out.println("Push: 3");
-        System.out.println("");
+        System.out.println("It is empty.\n");
 
-        aStack.ShowStack(aStack.stackAsArray);
+    	System.out.println("Push: 1");
+    	aStack.push(1);
+        aStack.ShowStack();
+
+    	System.out.println("Push: 2");
+    	aStack.push(2);
+        aStack.ShowStack();
+
+    	System.out.println("Push: 3");
+    	aStack.push(3);
+        aStack.ShowStack();
 
         System.out.println("\nDone.");
     }
