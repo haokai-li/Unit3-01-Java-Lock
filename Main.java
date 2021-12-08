@@ -8,7 +8,12 @@
 */
 
 class Main {
-    public static void main(String[] args) {
+    /**
+    * The three.
+    */
+    public static final int THREE = 3;
+
+    static void main(final String[] args) {
         HaokaiStack aStack = new HaokaiStack();
 
         System.out.println("It is empty.\n");
@@ -23,7 +28,7 @@ class Main {
         aStack.showStack();
 
     	System.out.println("Push: 3");
-    	aStack.push(3);
+    	aStack.push(THREE);
         aStack.showStack();
 
         System.out.println("\nDone.");
