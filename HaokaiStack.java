@@ -9,16 +9,26 @@
 
 import java.util.ArrayList;
 
+/**
+* This is the standard "Towers of Hanoi" program.
+*/
 public class HaokaiStack {
-    // arrylist
-    private ArrayList<Integer> stackAsArray=new ArrayList<Integer>();
-    
-    // and 1 method
-    public void push(int decrement) {
+    /**
+    * arraylist
+    */
+    private ArrayList<Integer> stackAsArray = new ArrayList<Integer>();
+
+    /**
+    * and 1 method.
+    */ 
+    public void push(final int decrement) {
         stackAsArray.add(decrement);
     }
 
-    public void ShowStack() {
+    /**
+    * show stack.
+    */ 
+    public void showStack() {
         System.out.println("It is start list.");
         for (int iLoop : stackAsArray) {
             System.out.println(iLoop);
