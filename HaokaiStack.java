@@ -13,6 +13,9 @@ import java.util.ArrayList;
 * This is the standard "Towers of Hanoi" program.
 */
 public class HaokaiStack {
+    /**
+    * arraylist.
+    */
     private ArrayList<Integer> stackAsArray = new ArrayList<Integer>();
 
     /**
