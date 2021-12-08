@@ -20,14 +20,17 @@ public class HaokaiStack {
 
     /**
     * and 1 method.
-    */ 
+    *
+    * @param decrement
+    *
+    */
     public void push(final int decrement) {
         stackAsArray.add(decrement);
     }
 
     /**
     * show stack.
-    */ 
+    */
     public void showStack() {
         System.out.println("It is start list.");
         for (int iLoop : stackAsArray) {
