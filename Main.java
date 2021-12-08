@@ -11,9 +11,9 @@ class Main {
     /**
     * The three.
     */
-    static final int THREE = 3;
+    private static final int THREE = 3;
 
-    static void main(final String[] args) {
+    private static void main(final String[] args) {
         HaokaiStack aStack = new HaokaiStack();
 
         System.out.println("It is empty.\n");
