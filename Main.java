@@ -1,8 +1,18 @@
+/*
+* This program uses the HaokaiStack class
+*
+* @author  Haokai
+* @version 1.0
+* @since   2021-12-01
+*
+*/
+
 class Main {
     public static void main(String[] args) {
         HaokaiStack aStack = new HaokaiStack();
 
         System.out.println("It is empty.\n");
+        aStack.ShowStack();
 
     	System.out.println("Push: 1");
     	aStack.push(1);
