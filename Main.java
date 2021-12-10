@@ -13,7 +13,7 @@ class Main {
     */
     private static final int THREE = 3;
 
-    private static void main(final String[] args) {
+    public static void main(final String[] args) {
         HaokaiStack aStack = new HaokaiStack();
 
         System.out.println("It is empty.\n");
